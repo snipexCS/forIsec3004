@@ -1,0 +1,12 @@
+[2026-10-02T06:48:38.855Z] MITIGATED CSRF app listening on http://localhost:4001
+[2026-10-02T06:48:57.619Z] Request GET /login | sid=e9eb7b4fa03171898e53ce7901b39bd8 | origin=none | referer=none | authenticated=false
+[2026-10-02T06:48:57.697Z] Request GET /favicon.ico | sid=e9eb7b4fa03171898e53ce7901b39bd8 | origin=none | referer=http://localhost:4001/login | authenticated=false
+[2026-10-02T06:49:05.076Z] Request POST /login | sid=e9eb7b4fa03171898e53ce7901b39bd8 | origin=http://localhost:4001 | referer=http://localhost:4001/login | authenticated=false
+[2026-10-02T06:49:05.077Z] Login success for user=alice | sid=e9eb7b4fa03171898e53ce7901b39bd8
+[2026-10-02T06:49:05.085Z] Request GET /account | sid=e9eb7b4fa03171898e53ce7901b39bd8 | origin=none | referer=http://localhost:4001/login | authenticated=true
+[2026-10-02T06:50:07.819Z] Request POST /login | sid=d910ed5ec0e3fbfcd309be400460d63a | origin=none | referer=none | authenticated=false
+[2026-10-02T06:50:07.819Z] Login success for user=alice | sid=d910ed5ec0e3fbfcd309be400460d63a
+[2026-10-02T06:50:19.875Z] Request POST /account/update-email | sid=d910ed5ec0e3fbfcd309be400460d63a | origin=http://localhost:5050 | referer=http://localhost:5050/ | authenticated=true
+[2026-10-02T06:50:19.877Z] BLOCKED: invalid/missing CSRF token on update-email | sid=d910ed5ec0e3fbfcd309be400460d63a | origin=http://localhost:5050 | referer=http://localhost:5050/
+[2026-10-02T06:50:52.910Z] Request GET /account | sid=e9eb7b4fa03171898e53ce7901b39bd8 | origin=none | referer=http://localhost:4001/login | authenticated=true
+[2026-10-02T06:50:53.631Z] Request GET /account | sid=e9eb7b4fa03171898e53ce7901b39bd8 | origin=none | referer=http://localhost:4001/login | authenticated=true

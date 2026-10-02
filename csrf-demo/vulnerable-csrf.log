@@ -1,0 +1,32 @@
+[2026-10-02T05:48:25.222Z] VULNERABLE CSRF app listening on http://localhost:4000
+[2026-10-02T05:48:59.043Z] Request GET /login | sid=11f714df79ec248c00c4ce38004d827f | origin=none | referer=none | authenticated=false
+[2026-10-02T05:48:59.124Z] Request GET /favicon.ico | sid=11f714df79ec248c00c4ce38004d827f | origin=none | referer=http://localhost:4000/login | authenticated=false
+[2026-10-02T05:49:21.512Z] Request POST /login | sid=11f714df79ec248c00c4ce38004d827f | origin=http://localhost:4000 | referer=http://localhost:4000/login | authenticated=false
+[2026-10-02T05:49:21.514Z] Login success for user=alice | sid=11f714df79ec248c00c4ce38004d827f
+[2026-10-02T05:49:21.526Z] Request GET /account | sid=11f714df79ec248c00c4ce38004d827f | origin=none | referer=http://localhost:4000/login | authenticated=true
+[2026-10-02T05:55:28.209Z] VULNERABLE CSRF app listening on http://localhost:4000
+[2026-10-02T05:55:48.521Z] Request GET / | sid=15289f63c7adba1e8163b7449d2ca9f0 | origin=none | referer=none | authenticated=false
+[2026-10-02T05:56:07.264Z] Request GET / | sid=18ae5eac31e2e0ff32f703e6442fdbff | origin=none | referer=none | authenticated=false
+[2026-10-02T05:56:09.043Z] Request GET / | sid=18ae5eac31e2e0ff32f703e6442fdbff | origin=none | referer=none | authenticated=false
+[2026-10-02T05:56:14.297Z] VULNERABLE CSRF app listening on http://localhost:4000
+[2026-10-02T05:56:15.719Z] Request GET / | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=none | referer=none | authenticated=false
+[2026-10-02T05:56:43.733Z] Request GET /login | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=none | referer=none | authenticated=false
+[2026-10-02T05:56:43.774Z] Request GET /favicon.ico | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=none | referer=none | authenticated=false
+[2026-10-02T05:56:46.157Z] Request POST /login | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=http://localhost:4000 | referer=http://localhost:4000/login | authenticated=false
+[2026-10-02T05:56:46.158Z] Login success for user=alice | sid=30e7c16cb737f13d8cc6dce2adf22ce7
+[2026-10-02T05:56:46.162Z] Request GET /account | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=none | referer=http://localhost:4000/login | authenticated=true
+[2026-10-02T05:58:48.949Z] Request GET / | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=none | referer=none | authenticated=true
+[2026-10-02T05:58:51.810Z] Request GET /login | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=none | referer=none | authenticated=true
+[2026-10-02T05:58:53.113Z] Request POST /login | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=http://localhost:4000 | referer=http://localhost:4000/login | authenticated=true
+[2026-10-02T05:58:53.114Z] Login success for user=alice | sid=30e7c16cb737f13d8cc6dce2adf22ce7
+[2026-10-02T05:58:53.118Z] Request GET /account | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=none | referer=http://localhost:4000/login | authenticated=true
+[2026-10-02T05:59:18.841Z] Request POST /account/update-email | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=http://localhost:5050 | referer=http://localhost:5050/ | authenticated=true
+[2026-10-02T05:59:18.842Z] EMAIL CHANGED to attacker@evil.com | sid=30e7c16cb737f13d8cc6dce2adf22ce7 | origin=http://localhost:5050 | referer=http://localhost:5050/
+[2026-10-02T06:07:40.212Z] VULNERABLE CSRF app listening on http://localhost:4000
+[2026-10-02T06:08:29.097Z] Request GET /login | sid=6cd216d23c8962606acd8e37ded949cf | origin=none | referer=none | authenticated=false
+[2026-10-02T06:08:47.667Z] Request POST /login | sid=6cd216d23c8962606acd8e37ded949cf | origin=http://localhost:4000 | referer=http://localhost:4000/login | authenticated=false
+[2026-10-02T06:08:47.668Z] Login success for user=alice | sid=6cd216d23c8962606acd8e37ded949cf
+[2026-10-02T06:08:47.675Z] Request GET /account | sid=6cd216d23c8962606acd8e37ded949cf | origin=none | referer=http://localhost:4000/login | authenticated=true
+[2026-10-02T06:09:25.632Z] Request POST /account/update-email | sid=6cd216d23c8962606acd8e37ded949cf | origin=http://localhost:5050 | referer=http://localhost:5050/ | authenticated=true
+[2026-10-02T06:09:25.633Z] EMAIL CHANGED to attacker@evil.com | sid=6cd216d23c8962606acd8e37ded949cf | origin=http://localhost:5050 | referer=http://localhost:5050/
+[2026-10-02T06:09:56.060Z] Request GET /account | sid=6cd216d23c8962606acd8e37ded949cf | origin=none | referer=http://localhost:4000/login | authenticated=true
