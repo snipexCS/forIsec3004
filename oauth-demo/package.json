@@ -1,0 +1,24 @@
+{
+  "name": "oauth-demo",
+  "version": "1.0.0",
+  "description": "ISEC3004 Assignment 1 - OAuth Session Fixation demo (vulnerable + mitigated)",
+  "main": "vulnerable-app.js",
+  "scripts": {
+    "provider": "node provider.js",
+    "vulnerable": "node vulnerable-app.js",
+    "mitigated": "node mitigated-app.js",
+    "attacker": "node attacker-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "session-fixation",
+    "security",
+    "isec3004"
+  ],
+  "author": "Group 33",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
