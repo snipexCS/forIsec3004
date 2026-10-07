@@ -1,0 +1,137 @@
+[2026-10-05T10:46:28.658Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T10:46:46.901Z] Request GET / | sid=e102bbd280a3e5eefeb2a05732ab725f | origin=none | referer=none | authenticated=false
+[2026-10-05T10:46:46.908Z] FIXATION: session id taken from URL -> sid=e102bbd280a3e5eefeb2a05732ab725f
+[2026-10-05T10:46:46.908Z] Request GET /login | sid=e102bbd280a3e5eefeb2a05732ab725f | origin=none | referer=none | authenticated=false
+[2026-10-05T10:46:46.909Z] Starting OAuth | sid=e102bbd280a3e5eefeb2a05732ab725f | state=rcny3p3ln6q (not bound to session)
+[2026-10-05T10:46:47.065Z] Request GET /callback | sid=e102bbd280a3e5eefeb2a05732ab725f | origin=none | referer=none | authenticated=false
+[2026-10-05T10:46:47.099Z] LOGIN SUCCESS (no session regeneration) | sid=e102bbd280a3e5eefeb2a05732ab725f | user=alice | state_returned=rcny3p3ln6q
+[2026-10-05T10:46:47.101Z] Request GET /account | sid=e102bbd280a3e5eefeb2a05732ab725f | origin=none | referer=none | authenticated=true
+[2026-10-05T10:46:47.101Z] ACCOUNT VIEWED | sid=e102bbd280a3e5eefeb2a05732ab725f | user=alice
+[2026-10-05T10:46:47.103Z] Request GET /account | sid=e102bbd280a3e5eefeb2a05732ab725f | origin=none | referer=none | authenticated=true
+[2026-10-05T10:46:47.104Z] ACCOUNT VIEWED | sid=e102bbd280a3e5eefeb2a05732ab725f | user=alice
+[2026-10-05T16:50:56.484Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T16:51:11.070Z] Request GET / | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=none | authenticated=false
+[2026-10-05T16:51:33.528Z] FIXATION: session id taken from URL -> sid=e98d81d813ba7a790a9d7baaf8e9ad91
+[2026-10-05T16:51:33.528Z] Request GET /login | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=http://localhost:7050/ | authenticated=false
+[2026-10-05T16:51:33.529Z] Starting OAuth | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | state=cvitvgbunua (not bound to session)
+[2026-10-05T16:51:45.610Z] Request GET /callback | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=http://localhost:7000/ | authenticated=false
+[2026-10-05T16:51:45.646Z] LOGIN SUCCESS (no session regeneration) | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | user=alice | state_returned=cvitvgbunua
+[2026-10-05T16:51:45.647Z] Request GET /account | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T16:51:45.648Z] ACCOUNT VIEWED | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | user=alice
+[2026-10-05T16:51:45.664Z] Request GET /favicon.ico | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=none | authenticated=true
+[2026-10-05T16:52:29.477Z] Request GET /callback | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T16:52:29.480Z] LOGIN SUCCESS (no session regeneration) | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | user=alice | state_returned=cvitvgbunua
+[2026-10-05T16:52:29.482Z] Request GET /account | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T16:52:29.483Z] ACCOUNT VIEWED | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | user=alice
+[2026-10-05T16:59:53.406Z] Request GET /callback | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T16:59:53.409Z] LOGIN SUCCESS (no session regeneration) | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | user=alice | state_returned=cvitvgbunua
+[2026-10-05T16:59:53.411Z] Request GET /account | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T16:59:53.411Z] ACCOUNT VIEWED | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | user=alice
+[2026-10-05T17:00:27.917Z] Request GET /account | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:00:27.917Z] ACCOUNT VIEWED | sid=e98d81d813ba7a790a9d7baaf8e9ad91 | user=alice
+[2026-10-05T17:04:40.370Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T17:04:46.098Z] Request GET / | sid=c80354f729acce9b9570aaffe66f5664 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:04:46.107Z] FIXATION: session id taken from URL -> sid=c80354f729acce9b9570aaffe66f5664
+[2026-10-05T17:04:46.108Z] Request GET /login | sid=c80354f729acce9b9570aaffe66f5664 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:04:46.108Z] Starting OAuth | sid=c80354f729acce9b9570aaffe66f5664 | state=y5no2rtfox (not bound to session)
+[2026-10-05T17:04:46.130Z] Request GET /callback | sid=c80354f729acce9b9570aaffe66f5664 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:04:46.175Z] LOGIN SUCCESS (no session regeneration) | sid=c80354f729acce9b9570aaffe66f5664 | user=alice | state_returned=y5no2rtfox
+[2026-10-05T17:04:46.177Z] Request GET /account | sid=c80354f729acce9b9570aaffe66f5664 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:04:46.178Z] ACCOUNT VIEWED | sid=c80354f729acce9b9570aaffe66f5664 | user=alice
+[2026-10-05T17:04:46.181Z] Request GET /account | sid=c80354f729acce9b9570aaffe66f5664 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:04:46.182Z] ACCOUNT VIEWED | sid=c80354f729acce9b9570aaffe66f5664 | user=alice
+[2026-10-05T17:06:47.903Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T17:06:50.173Z] Request GET / | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:08:34.850Z] FIXATION: session id taken from URL -> sid=9c79be7bc84d2de936cb7a6bf130a8e2
+[2026-10-05T17:08:34.850Z] Request GET /login | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | origin=none | referer=http://localhost:7050/ | authenticated=false
+[2026-10-05T17:08:34.851Z] Starting OAuth | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | state=wjk1qpxoyjc (not bound to session)
+[2026-10-05T17:08:45.538Z] Request GET /callback | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | origin=none | referer=http://localhost:7000/ | authenticated=false
+[2026-10-05T17:08:45.574Z] LOGIN SUCCESS (no session regeneration) | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | user=alice | state_returned=wjk1qpxoyjc
+[2026-10-05T17:08:45.576Z] Request GET /account | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:08:45.577Z] ACCOUNT VIEWED | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | user=alice
+[2026-10-05T17:08:58.072Z] Request GET /account | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:08:58.072Z] ACCOUNT VIEWED | sid=9c79be7bc84d2de936cb7a6bf130a8e2 | user=alice
+[2026-10-05T17:16:40.982Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T17:19:11.246Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T17:19:13.288Z] Request GET / | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:19:16.143Z] Request GET / | sid=861506ac829e87c953f34eaf9fdcd15a | origin=none | referer=none | authenticated=false
+[2026-10-05T17:20:48.454Z] FIXATION: session id taken from URL -> sid=40b13259264a901df38a4074ee36fc57
+[2026-10-05T17:20:48.455Z] Request GET /login | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7050/ | authenticated=false
+[2026-10-05T17:20:48.455Z] Starting OAuth | sid=40b13259264a901df38a4074ee36fc57 | state=cri5rdo5isw (not bound to session)
+[2026-10-05T17:20:50.048Z] Request GET /callback | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=false
+[2026-10-05T17:20:50.084Z] LOGIN SUCCESS (no session regeneration) | sid=40b13259264a901df38a4074ee36fc57 | user=alice | state_returned=cri5rdo5isw
+[2026-10-05T17:20:50.089Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:20:50.089Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:20:50.178Z] Request GET /favicon.ico | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7001/account | authenticated=true
+[2026-10-05T17:20:50.193Z] Request HEAD /account | sid=786042ebadd82c603ee392cdfd8a14ea | origin=none | referer=http://localhost:7001/account | authenticated=false
+[2026-10-05T17:21:50.882Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T17:23:34.994Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T17:24:05.515Z] Request GET / | sid=fba4026959203f3d5d3afd05db7e5050 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:24:52.953Z] FIXATION: session id taken from URL -> sid=40b13259264a901df38a4074ee36fc57
+[2026-10-05T17:24:52.954Z] Request GET /login | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7050/ | authenticated=true
+[2026-10-05T17:24:52.954Z] Starting OAuth | sid=40b13259264a901df38a4074ee36fc57 | state=23sh045zln4 (not bound to session)
+[2026-10-05T17:24:53.822Z] Request GET /callback | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:24:53.826Z] LOGIN SUCCESS (no session regeneration) | sid=40b13259264a901df38a4074ee36fc57 | user=alice | state_returned=23sh045zln4
+[2026-10-05T17:24:53.831Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:24:53.831Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:24:53.930Z] Request HEAD /account | sid=c65795cb63c9c4c21661401cf21ab3e6 | origin=none | referer=http://localhost:7001/account | authenticated=false
+[2026-10-05T17:25:06.949Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:25:06.949Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:25:07.213Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:25:07.213Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:27:16.108Z] FIXATION: session id taken from URL -> sid=40b13259264a901df38a4074ee36fc57
+[2026-10-05T17:27:16.108Z] Request GET /login | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7050/ | authenticated=true
+[2026-10-05T17:27:16.109Z] Starting OAuth | sid=40b13259264a901df38a4074ee36fc57 | state=55lve8y6i0a (not bound to session)
+[2026-10-05T17:27:16.780Z] Request GET /callback | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:27:16.784Z] LOGIN SUCCESS (no session regeneration) | sid=40b13259264a901df38a4074ee36fc57 | user=alice | state_returned=55lve8y6i0a
+[2026-10-05T17:27:16.788Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:27:16.788Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:27:16.880Z] Request HEAD /account | sid=c8f2ae8d9f6f2651714175d3c42f9cb3 | origin=none | referer=http://localhost:7001/account | authenticated=false
+[2026-10-05T17:27:27.283Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:27:27.284Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:27:27.532Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:27:27.532Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:28:43.412Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:28:43.413Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:28:43.661Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:28:43.662Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:29:30.013Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:29:30.013Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:29:30.258Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:29:30.258Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:32:51.859Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:32:51.860Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:32:55.741Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:32:55.741Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:33:04.625Z] FIXATION: session id taken from URL -> sid=40b13259264a901df38a4074ee36fc57
+[2026-10-05T17:33:04.626Z] Request GET /login | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7050/ | authenticated=true
+[2026-10-05T17:33:04.626Z] Starting OAuth | sid=40b13259264a901df38a4074ee36fc57 | state=cp39tw5764r (not bound to session)
+[2026-10-05T17:33:05.563Z] Request GET /callback | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:33:05.566Z] LOGIN SUCCESS (no session regeneration) | sid=40b13259264a901df38a4074ee36fc57 | user=alice | state_returned=cp39tw5764r
+[2026-10-05T17:33:05.567Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:33:05.568Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:33:09.691Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:33:09.692Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:33:25.992Z] Request GET / | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:33:27.040Z] Request GET /login | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7001/ | authenticated=true
+[2026-10-05T17:33:27.041Z] Starting OAuth | sid=40b13259264a901df38a4074ee36fc57 | state=kkz1oqciudo (not bound to session)
+[2026-10-05T17:33:27.958Z] Request GET /callback | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:33:27.960Z] LOGIN SUCCESS (no session regeneration) | sid=40b13259264a901df38a4074ee36fc57 | user=alice | state_returned=kkz1oqciudo
+[2026-10-05T17:33:27.962Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:33:27.962Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:33:39.769Z] Request GET /account | sid=40b13259264a901df38a4074ee36fc57 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:33:39.770Z] ACCOUNT VIEWED | sid=40b13259264a901df38a4074ee36fc57 | user=alice
+[2026-10-05T17:43:42.678Z] VULNERABLE OAuth RP listening on http://localhost:7001
+[2026-10-05T17:43:54.033Z] Request GET / | sid=c8fffb4082f82687c3736d22c293474a | origin=none | referer=none | authenticated=false
+[2026-10-05T17:44:08.464Z] FIXATION: session id taken from URL -> sid=c8fffb4082f82687c3736d22c293474a
+[2026-10-05T17:44:08.464Z] Request GET /login | sid=c8fffb4082f82687c3736d22c293474a | origin=none | referer=http://localhost:7050/ | authenticated=false
+[2026-10-05T17:44:08.465Z] Starting OAuth | sid=c8fffb4082f82687c3736d22c293474a | state=jqxm0j62vda (not bound to session)
+[2026-10-05T17:44:09.119Z] Request GET /callback | sid=c8fffb4082f82687c3736d22c293474a | origin=none | referer=http://localhost:7000/ | authenticated=false
+[2026-10-05T17:44:09.158Z] LOGIN SUCCESS (no session regeneration) | sid=c8fffb4082f82687c3736d22c293474a | user=alice | state_returned=jqxm0j62vda
+[2026-10-05T17:44:09.163Z] Request GET /account | sid=c8fffb4082f82687c3736d22c293474a | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:44:09.163Z] ACCOUNT VIEWED | sid=c8fffb4082f82687c3736d22c293474a | user=alice
+[2026-10-05T17:44:09.266Z] Request HEAD /account | sid=c61f3220a5f972a4d8b45308cd21007a | origin=none | referer=http://localhost:7001/account | authenticated=false
+[2026-10-05T17:44:26.698Z] Request GET /account | sid=c8fffb4082f82687c3736d22c293474a | origin=none | referer=none | authenticated=true
+[2026-10-05T17:44:26.699Z] ACCOUNT VIEWED | sid=c8fffb4082f82687c3736d22c293474a | user=alice
+[2026-10-05T17:44:26.788Z] Request GET /account | sid=c8fffb4082f82687c3736d22c293474a | origin=none | referer=none | authenticated=true
+[2026-10-05T17:44:26.789Z] ACCOUNT VIEWED | sid=c8fffb4082f82687c3736d22c293474a | user=alice

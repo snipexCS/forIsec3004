@@ -1,0 +1,85 @@
+[2026-10-05T10:48:35.447Z] MITIGATED OAuth RP listening on http://localhost:7002
+[2026-10-05T10:49:24.738Z] Request GET / | sid=c1d73fc0cb532a19e2be61ecca4e5c6f | origin=none | referer=none | authenticated=false
+[2026-10-05T10:49:24.747Z] Request GET /login | sid=c1d73fc0cb532a19e2be61ecca4e5c6f | origin=none | referer=none | authenticated=false
+[2026-10-05T10:49:24.747Z] Starting OAuth | sid=c1d73fc0cb532a19e2be61ecca4e5c6f | state=4e83c68453db374adf2a04912bab63a5 (bound to session)
+[2026-10-05T10:49:24.753Z] Request GET /callback | sid=c1d73fc0cb532a19e2be61ecca4e5c6f | origin=none | referer=none | authenticated=false
+[2026-10-05T10:49:24.799Z] LOGIN SUCCESS (session regenerated) | oldSid=c1d73fc0cb532a19e2be61ecca4e5c6f -> newSid=bf3638ae43b38f07b6dd5175c183283a | user=alice
+[2026-10-05T10:49:24.801Z] Request GET /account | sid=bf3638ae43b38f07b6dd5175c183283a | origin=none | referer=none | authenticated=true
+[2026-10-05T10:49:24.801Z] ACCOUNT VIEWED | sid=bf3638ae43b38f07b6dd5175c183283a | user=alice
+[2026-10-05T10:49:24.804Z] Request GET /account | sid=f6bab28b198fe7ae233d38d5232e8b4b | origin=none | referer=none | authenticated=false
+[2026-10-05T17:04:52.551Z] MITIGATED OAuth RP listening on http://localhost:7002
+[2026-10-05T17:04:54.466Z] Request GET / | sid=54d1c7230b090cfcbd2d00897ccb181f | origin=none | referer=none | authenticated=false
+[2026-10-05T17:04:54.474Z] Request GET /login | sid=54d1c7230b090cfcbd2d00897ccb181f | origin=none | referer=none | authenticated=false
+[2026-10-05T17:04:54.475Z] Starting OAuth | sid=54d1c7230b090cfcbd2d00897ccb181f | state=97f347425af764907063f0234397def7 (bound to session)
+[2026-10-05T17:04:54.492Z] Request GET /callback | sid=54d1c7230b090cfcbd2d00897ccb181f | origin=none | referer=none | authenticated=false
+[2026-10-05T17:04:54.531Z] LOGIN SUCCESS (session regenerated) | oldSid=54d1c7230b090cfcbd2d00897ccb181f -> newSid=3c8fbafa407641ba9891479ffd260228 | user=alice
+[2026-10-05T17:04:54.533Z] Request GET /account | sid=3c8fbafa407641ba9891479ffd260228 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:04:54.533Z] ACCOUNT VIEWED | sid=3c8fbafa407641ba9891479ffd260228 | user=alice
+[2026-10-05T17:04:54.536Z] Request GET /account | sid=6a9c287e73645e816adec40a0a49a0c3 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:09:36.687Z] MITIGATED OAuth RP listening on http://localhost:7002
+[2026-10-05T17:10:20.515Z] Request GET / | sid=ac1309b34adc2780e3e702f8db022f11 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:10:34.222Z] Request GET /login | sid=6cfb1902d9661b4db33d4c12d4984093 | origin=none | referer=http://localhost:7050/ | authenticated=false
+[2026-10-05T17:10:34.222Z] Starting OAuth | sid=6cfb1902d9661b4db33d4c12d4984093 | state=4ababbf820dc4ccf0eb5bec6904347ec (bound to session)
+[2026-10-05T17:10:35.582Z] Request GET /callback | sid=6cfb1902d9661b4db33d4c12d4984093 | origin=none | referer=http://localhost:7000/ | authenticated=false
+[2026-10-05T17:10:35.621Z] LOGIN SUCCESS (session regenerated) | oldSid=6cfb1902d9661b4db33d4c12d4984093 -> newSid=a0c92a2744a00a73b02495c20382c60d | user=alice
+[2026-10-05T17:10:35.623Z] Request GET /account | sid=a0c92a2744a00a73b02495c20382c60d | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:10:35.623Z] ACCOUNT VIEWED | sid=a0c92a2744a00a73b02495c20382c60d | user=alice
+[2026-10-05T17:10:35.636Z] Request GET /favicon.ico | sid=a0c92a2744a00a73b02495c20382c60d | origin=none | referer=none | authenticated=true
+[2026-10-05T17:10:42.327Z] Request GET /account | sid=ac1309b34adc2780e3e702f8db022f11 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:25:47.582Z] MITIGATED OAuth RP listening on http://localhost:7002
+[2026-10-05T17:27:04.206Z] Request GET / | sid=6fcc67ee6694ed7fedf41825f775db9a | origin=none | referer=none | authenticated=false
+[2026-10-05T17:28:58.028Z] Request GET / | sid=521715ffec0e44de918fdf50130a6613 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:28:58.101Z] Request GET /favicon.ico | sid=521715ffec0e44de918fdf50130a6613 | origin=none | referer=http://localhost:7002/ | authenticated=false
+[2026-10-05T17:28:58.104Z] Request HEAD / | sid=ec538660e54d7b0a45bae9ecc1e864f4 | origin=none | referer=http://localhost:7002/ | authenticated=false
+[2026-10-05T17:29:15.487Z] Request GET /login | sid=521715ffec0e44de918fdf50130a6613 | origin=none | referer=http://localhost:7002/ | authenticated=false
+[2026-10-05T17:29:15.487Z] Starting OAuth | sid=521715ffec0e44de918fdf50130a6613 | state=b0c47ce892d5f2f986bdf7f764dd640e (bound to session)
+[2026-10-05T17:29:16.913Z] Request GET /callback | sid=521715ffec0e44de918fdf50130a6613 | origin=none | referer=http://localhost:7000/ | authenticated=false
+[2026-10-05T17:29:16.953Z] LOGIN SUCCESS (session regenerated) | oldSid=521715ffec0e44de918fdf50130a6613 -> newSid=a317325568e9b533187312d74ba115f9 | user=alice
+[2026-10-05T17:29:16.957Z] Request GET /account | sid=a317325568e9b533187312d74ba115f9 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:29:16.958Z] ACCOUNT VIEWED | sid=a317325568e9b533187312d74ba115f9 | user=alice
+[2026-10-05T17:29:17.075Z] Request HEAD /account | sid=1025d4823b314bfb2b89a7e5ae040dda | origin=none | referer=http://localhost:7002/account | authenticated=false
+[2026-10-05T17:32:30.265Z] Request GET / | sid=a317325568e9b533187312d74ba115f9 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:32:30.547Z] Request HEAD / | sid=4242e942f3de72681594779c471f8aa1 | origin=none | referer=http://localhost:7002/ | authenticated=false
+[2026-10-05T17:32:37.566Z] Request GET /login | sid=a317325568e9b533187312d74ba115f9 | origin=none | referer=http://localhost:7002/ | authenticated=true
+[2026-10-05T17:32:37.566Z] Starting OAuth | sid=a317325568e9b533187312d74ba115f9 | state=bdf395404f941767eb0adb4f6b5a4418 (bound to session)
+[2026-10-05T17:32:38.700Z] Request GET /callback | sid=a317325568e9b533187312d74ba115f9 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:32:38.704Z] LOGIN SUCCESS (session regenerated) | oldSid=a317325568e9b533187312d74ba115f9 -> newSid=a10325b763750ee6e3aefcd8d40001b5 | user=alice
+[2026-10-05T17:32:38.709Z] Request GET /account | sid=a10325b763750ee6e3aefcd8d40001b5 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:32:38.710Z] ACCOUNT VIEWED | sid=a10325b763750ee6e3aefcd8d40001b5 | user=alice
+[2026-10-05T17:32:38.870Z] Request HEAD /account | sid=cd649bf9a1e7de75c8ee0a0684b511d4 | origin=none | referer=http://localhost:7002/account | authenticated=false
+[2026-10-05T17:36:05.014Z] Request GET / | sid=756d544c7eab561f9b008af74db8f931 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:37:41.253Z] Request GET / | sid=0dcd24f8bd84f53c34ba1ad02a3386ce | origin=none | referer=none | authenticated=false
+[2026-10-05T17:38:05.814Z] Request GET / | sid=a10325b763750ee6e3aefcd8d40001b5 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:38:05.911Z] Request HEAD / | sid=61c799e9dba9f99df24bff690216cd0b | origin=none | referer=http://localhost:7002/ | authenticated=false
+[2026-10-05T17:38:20.601Z] Request GET /login | sid=a10325b763750ee6e3aefcd8d40001b5 | origin=none | referer=http://localhost:7050/ | authenticated=true
+[2026-10-05T17:38:20.602Z] Starting OAuth | sid=a10325b763750ee6e3aefcd8d40001b5 | state=0dc75c211b170b36209e49d20e48b9ef (bound to session)
+[2026-10-05T17:38:21.337Z] Request GET /callback | sid=a10325b763750ee6e3aefcd8d40001b5 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:38:21.340Z] LOGIN SUCCESS (session regenerated) | oldSid=a10325b763750ee6e3aefcd8d40001b5 -> newSid=5e0e21bc2ea540fdaa4bbd042d9012f5 | user=alice
+[2026-10-05T17:38:21.344Z] Request GET /account | sid=5e0e21bc2ea540fdaa4bbd042d9012f5 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:38:21.345Z] ACCOUNT VIEWED | sid=5e0e21bc2ea540fdaa4bbd042d9012f5 | user=alice
+[2026-10-05T17:38:21.460Z] Request HEAD /account | sid=784408ad44e4321962eee11be8e7c945 | origin=none | referer=http://localhost:7002/account | authenticated=false
+[2026-10-05T17:38:26.700Z] Request GET /account | sid=756d544c7eab561f9b008af74db8f931 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:38:34.138Z] Request GET /account | sid=756d544c7eab561f9b008af74db8f931 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:38:34.215Z] Request GET /account | sid=756d544c7eab561f9b008af74db8f931 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:39:00.373Z] Request GET / | sid=5e0e21bc2ea540fdaa4bbd042d9012f5 | origin=none | referer=none | authenticated=true
+[2026-10-05T17:39:00.629Z] Request HEAD / | sid=63f62b72bb45e5a335edba723e251d77 | origin=none | referer=http://localhost:7002/ | authenticated=false
+[2026-10-05T17:39:01.581Z] Request GET /login | sid=5e0e21bc2ea540fdaa4bbd042d9012f5 | origin=none | referer=http://localhost:7002/ | authenticated=true
+[2026-10-05T17:39:01.582Z] Starting OAuth | sid=5e0e21bc2ea540fdaa4bbd042d9012f5 | state=fcb6a3bf3ff9943757983b38a13e9f07 (bound to session)
+[2026-10-05T17:39:02.309Z] Request GET /callback | sid=5e0e21bc2ea540fdaa4bbd042d9012f5 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:39:02.312Z] LOGIN SUCCESS (session regenerated) | oldSid=5e0e21bc2ea540fdaa4bbd042d9012f5 -> newSid=c4df366131abb7c07a9c12fdae0c9604 | user=alice
+[2026-10-05T17:39:02.317Z] Request GET /account | sid=c4df366131abb7c07a9c12fdae0c9604 | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:39:02.317Z] ACCOUNT VIEWED | sid=c4df366131abb7c07a9c12fdae0c9604 | user=alice
+[2026-10-05T17:39:02.415Z] Request HEAD /account | sid=bad27eda4c847b952a4af57301ea87fe | origin=none | referer=http://localhost:7002/account | authenticated=false
+[2026-10-05T17:39:12.381Z] Request GET /account | sid=756d544c7eab561f9b008af74db8f931 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:39:12.631Z] Request GET /account | sid=756d544c7eab561f9b008af74db8f931 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:44:44.156Z] MITIGATED OAuth RP listening on http://localhost:7002
+[2026-10-05T17:45:31.544Z] Request GET / | sid=9fa2cf537fbde898c451a8a9359b2469 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:45:42.142Z] Request GET /login | sid=97c442d713ec3a4aab2a5184c8c3b5c4 | origin=none | referer=http://localhost:7050/ | authenticated=false
+[2026-10-05T17:45:42.143Z] Starting OAuth | sid=97c442d713ec3a4aab2a5184c8c3b5c4 | state=59110a74d73f993859e46263c4ce9bfd (bound to session)
+[2026-10-05T17:45:42.853Z] Request GET /callback | sid=97c442d713ec3a4aab2a5184c8c3b5c4 | origin=none | referer=http://localhost:7000/ | authenticated=false
+[2026-10-05T17:45:42.896Z] LOGIN SUCCESS (session regenerated) | oldSid=97c442d713ec3a4aab2a5184c8c3b5c4 -> newSid=70b3c687f6a797c58d07b018aa1cd81e | user=alice
+[2026-10-05T17:45:42.901Z] Request GET /account | sid=70b3c687f6a797c58d07b018aa1cd81e | origin=none | referer=http://localhost:7000/ | authenticated=true
+[2026-10-05T17:45:42.901Z] ACCOUNT VIEWED | sid=70b3c687f6a797c58d07b018aa1cd81e | user=alice
+[2026-10-05T17:45:42.994Z] Request HEAD /account | sid=553fff5c90bc1b0b81b76a8510eee07f | origin=none | referer=http://localhost:7002/account | authenticated=false
+[2026-10-05T17:45:52.433Z] Request GET /account | sid=9fa2cf537fbde898c451a8a9359b2469 | origin=none | referer=none | authenticated=false
+[2026-10-05T17:45:52.708Z] Request GET /account | sid=9fa2cf537fbde898c451a8a9359b2469 | origin=none | referer=none | authenticated=false
